@@ -14,7 +14,7 @@ import React from 'react'
 // Interfaces
 
 // Estilização
-// import { Container } from './styles'
+import { Container } from './styles'
 
 export const Home: React.FC = () => {
   // Constantes
@@ -27,8 +27,8 @@ export const Home: React.FC = () => {
   // Return
 
   return (
-    <main>
+    <Container>
       <h1>Hello World</h1>
-    </main>
+    </Container>
   )
 }
